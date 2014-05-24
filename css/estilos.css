@@ -1,0 +1,259 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/icomoon/icomoon.eot?-g6be4r');
+	src:url('../font/icomoon/icomoon.eot?#iefix-g6be4r') format('embedded-opentype'),
+		url('../font/icomoon/icomoon.woff?-g6be4r') format('woff'),
+		url('../font/icomoon/icomoon.ttf?-g6be4r') format('truetype'),
+		url('../font/icomoon/icomoon.svg?-g6be4r#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@font-face{
+	font-family: "almira";
+	src:url("../font/almira.otf");
+}
+@font-face{
+	font-family: "LAN";
+	src:url("../font/fuente2.ttf");
+}
+@font-face{
+	font-family: "LAN2";
+	src:url("../font/fuente6.ttf");
+}
+@font-face{
+	font-family: "sugar";
+	src:url("../font/sugar.ttf");
+}
+
+body
+{
+	font-family: "almira";
+	max-width: 1600px;
+}
+
+/**************************************   Media Query *******************************************/
+
+
+@media screen and (max-width:768px){ 
+
+}
+
+/***************************************************************************************/
+@media screen and (max-width:520px){ 
+	body
+	{
+		width: 100%;
+	}
+	body p#boton-menu
+	{
+		background: #fff;
+		cursor: pointer;
+		font-size: 1.5em;
+		position: fixed;
+		top: -.8em;
+		z-index: 2;
+		-webkit-border-radius: 10px;
+		-moz-border-radius: 10px;
+		border-radius: 10px;
+	}
+	body p#boton-menu:before {
+		content: "\e603";
+		font-family: "icomoon";
+	}
+	footer
+	{
+		background: #2c2c2c;
+		margin-top: 2em;
+	}
+	header
+	{
+		background: #fff;
+		height: 2.5em;	
+		position: fixed;
+		margin: 0 auto;
+		top: 0;	
+		width: 100%;
+		z-index: 1;
+	}
+	footer a
+	{
+		color: #fff;
+		display: block;
+		padding-bottom: .75em;
+		padding-top: .75em;
+		text-align: center;
+	}
+	header figure#logo-arr
+	{
+		left: 45%;
+		padding: 0;
+		position: fixed;
+		text-align: center;
+	}
+	header figure#logo-arr img
+	{
+		display: block;
+		width: 30px;
+	}
+	header span#abogados, header span#corporativos
+	{
+		background: #8d0c20;
+		border-bottom: 3px solid #5b5b5b;
+		color: #fff;
+		font-family: "LAN";
+		font-size: .9em;
+		position: fixed;
+		top: .5em;
+		width: 40%;
+	}
+	header span#abogados
+	{
+		float: left;		
+		text-align: right;
+	}
+	header span#corporativos
+	{
+		float: right;
+		right: 0;
+		text-align: left;
+	}
+	nav#menu-movil
+	{
+		background: #fff;
+		display: none;
+		height: 15em;
+		margin-top: 3.5em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	} 
+	nav#menu-movil ul
+	{
+		list-style: none;
+		padding: 0;
+		width: 100%;
+	}
+	nav#menu-movil ul li
+	{
+		margin: .5em 0;
+		text-align: center;
+		width: 100%
+	}
+	nav#menu-movil ul li:hover
+	{
+		background: #8D0C20;
+	}
+	nav#menu-movil ul li a
+	{
+		color: #4c4c4c;
+		display: none;
+		font-size: 1.75em;		
+		width: 100%;
+	}
+	nav#menu-movil ul li a:hover
+	{
+		color: #fff;
+	}
+	div#slider figure
+	{
+		width: 100%;
+	}
+	div#contenido
+	{
+		background: #bdbec0;
+		text-align: center;
+	}
+	div#contenido section#contacto
+	{
+		border: 1px solid #bdbec0;
+		margin-top: 0;
+		top: 0;
+	}
+	
+	div#contenido section#contacto form#formulario #btn-enviar
+	{
+		background: #8D0C20;
+		color: #fff;
+		height: 2em;
+		width: 35%
+	}
+	div#contenido section#contacto form#formulario .cajas
+	{
+		display: block;
+		margin: .1em auto;
+		width: 65%;
+	}
+	div#contenido section#contacto form#formulario span
+	{margin: 0 1em;
+	}
+	div#contenido section#contacto form#formulario textarea
+	{
+		height: 7em;
+	}
+	div#contenido section#direcciones p#dir2,div#contenido section#direcciones .clase-direccion
+	{
+		margin: 1em 0;
+	}
+	div#contenido section#direcciones p#dir2,div#contenido section#direcciones p#dir4
+	{
+		border-bottom: 1px solid #4c4c4c;
+		border-top: 1px solid #4c4c4c;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+	div#contenido section#nosotros
+	{
+
+	}
+	div#slider figure img
+	{
+		width: 100%;
+	}
+	mark
+	{
+		background: #fff;
+		color: #8D0C20;
+		font-weight: bold;
+	}
+	.logo-fondo img
+	{
+		left: -5em;
+		opacity: .17;
+		position: fixed;
+		text-align: center;
+		top: 7em;
+		width: 100%;
+		z-index: -1;
+	}
+	.secciones
+	{
+		display: none;
+		margin-top: 4em;
+		text-align: justify;
+	}
+	.secciones .contenido-secciones
+	{
+		margin: 0 auto;
+		width: 90%
+	}
+	.subtitulos
+	{
+		font-size: 2em;
+		margin: 1em 0 2em 0;
+		text-align: center;
+	}
+}
