@@ -1,0 +1,486 @@
+@font-face {
+	font-family: 'icomoon';
+	src:url('../font/icomoon/icomoon.eot?-g6be4r');
+	src:url('../font/icomoon/icomoon.eot?#iefix-g6be4r') format('embedded-opentype'),
+		url('../font/icomoon/icomoon.woff?-g6be4r') format('woff'),
+		url('../font/icomoon/icomoon.ttf?-g6be4r') format('truetype'),
+		url('../font/icomoon/icomoon.svg?-g6be4r#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'icomoon';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+@font-face{
+	font-family: "almira";
+	src:url("../font/almira.otf");
+}
+@font-face{
+	font-family: "LAN";
+	src:url("../font/fuente2.ttf");
+}
+@font-face{
+	font-family: "LAN2";
+	src:url("../font/fuente6.ttf");
+}
+@font-face{
+	font-family: "sugar";
+	src:url("../font/sugar.ttf");
+}
+
+body
+{
+	font-family: "almira";
+	max-width: 1600px;
+}
+
+/**************************************   Media Query *******************************************
+
+
+@media screen and (max-width:768px){ 
+header figure#logo-arr
+{
+	text-align: center;
+}
+header figure#logo-arr img
+{
+	width: 12%;
+}
+header nav#menu-principal
+{
+	display: block;
+}
+header span
+{
+	background: #8D0C20;	
+	border-bottom: 5px solid #5b5b5b;
+	color: #fff;
+	font-size: 2.75em;
+	width: 40%;
+}
+header span#abogados
+{
+	float: left;
+	margin-top: 1em;
+	text-align: right;
+	padding-right: .5em;
+}
+header span#corporativos
+{
+	float: right;
+	margin-top: 1em;
+	padding-left: .5em;	
+}
+nav#menu-movil
+{
+	display: none;
+}
+p#boton-menu
+{
+	display: none;
+}
+}*/
+
+/***************************************************************************************/
+@media screen and (max-width:768px){ 
+	body
+	{	
+		width: 100%;
+	}
+	body p#boton-menu
+	{
+		background: #fff;
+		cursor: pointer;
+		display: block;
+		font-size: 1.75em;
+		position: fixed;
+		top: -1em;
+		z-index: 2;
+		-webkit-border-radius: 4px;
+		-moz-border-radius: 4px;
+		border-radius: 4px;
+	}
+	body p#boton-menu:before {
+		content: "\e602";
+		font-family: "icomoon";
+	}
+	footer
+	{
+		background: #2c2c2c;
+	}
+	header
+	{
+		background: #fff;
+		height: 2.5em;	
+		position: fixed;
+		margin: 0 auto;
+		top: 0;	
+		width: 100%;
+		z-index: 1;
+	}
+	footer a
+	{
+		color: #fff;
+		display: block;
+		padding-bottom: .75em;
+		padding-top: .75em;
+		text-align: center;
+	}
+	header figure#logo-arr
+	{
+		left: 45%;
+		padding: 0;
+		position: fixed;
+		text-align: center;
+	}
+	header figure#logo-arr img
+	{
+		display: block;
+		width: 30px;
+	}
+	header span#abogados, header span#corporativos
+	{
+		background: #8d0c20;
+		border-bottom: 3px solid #5b5b5b;
+		color: #fff;
+		font-family: "LAN";
+		font-size: .9em;
+		position: fixed;
+		top: .5em;
+		width: 40%;
+	}
+	header span#abogados
+	{
+		float: left;		
+		text-align: right;
+	}
+	header span#corporativos
+	{
+		float: right;
+		right: 0;
+		text-align: left;
+	}
+	div#slider figure
+	{
+		height: 18em;
+		overflow: hidden;
+		width: 100%;
+	}
+	div#contenido
+	{
+		background: #bdbec0;
+		text-align: center;
+	}
+	div#contenido section#contacto
+	{
+		border: 1px solid #bdbec0;
+		margin-top: 0;
+		top: 0;
+	}
+	
+	div#contenido section#contacto form#formulario #btn-enviar
+	{
+		background: #8D0C20;
+		color: #fff;
+		height: 2em;
+		width: 35%
+	}
+	div#contenido section#contacto form#formulario .cajas
+	{
+		display: block;
+		margin: .1em auto;
+		width: 65%;
+	}
+	div#contenido section#contacto form#formulario span
+	{margin: 0 1em;
+	}
+	div#contenido section#contacto form#formulario textarea
+	{
+		height: 7em;
+	}
+	div#contenido section#direcciones p#dir2,div#contenido section#direcciones .clase-direccion
+	{
+		margin: 1em 0;
+	}
+	div#contenido section#direcciones p#dir2,div#contenido section#direcciones p#dir4
+	{
+		border-bottom: 1px solid #4c4c4c;
+		border-top: 1px solid #4c4c4c;
+		padding-bottom: 1em;
+		padding-top: 1em;
+	}
+	div#contenido section#nosotros
+	{
+
+	}
+	div#slider figure img
+	{
+		width: 100%;
+	}
+	mark
+	{
+		background: #fff;
+		color: #8D0C20;
+		font-weight: bold;
+	}
+	nav#menu-movil
+	{
+		background: #fff;
+		display: none;
+		height: 15em;
+		margin-top: 3.5em;
+		position: fixed;
+		top: 0;
+		width: 100%;
+	} 
+	nav#menu-movil ul
+	{
+		list-style: none;
+		padding: 0;
+		width: 100%;
+	}
+	nav#menu-movil ul li
+	{
+		margin: .5em 0;
+		text-align: center;
+		width: 100%
+	}
+	nav#menu-movil ul li:hover
+	{
+		background: #8D0C20;
+	}
+	nav#menu-movil ul li a
+	{
+		color: #4c4c4c;
+		display: none;
+		font-size: 1.75em;		
+		width: 100%;
+	}
+	nav#menu-movil ul li a:hover
+	{
+		color: #fff;
+	}
+	nav#menu-principal
+	{
+		display: none;
+	}
+	
+	.contactos
+	{
+		margin: 0;
+		padding: 0;
+	}
+	.flag
+	{
+		position: absolute;
+		top: 0em;
+	}
+	.logo-fondo img
+	{
+		left: -5em;
+		opacity: .17;
+		position: fixed;
+		text-align: center;
+		top: 7em;
+		width: 100%;
+		z-index: -1;
+	}
+	.secciones
+	{
+		display: none;
+		font-weight: bold;
+		margin-top: 4em;
+		margin-bottom: 2em;
+		text-align: justify;
+	}
+	.secciones .contenido-secciones
+	{
+		margin: 0 auto;
+		width: 90%
+	}
+	.subtitulos
+	{
+		font-family: "almira";
+		font-size: 2em;
+		margin: 1em 0 2em 0;
+		text-align: center;
+	}
+}
+/**************************************   Media Query *******************************************
+
+*/
+@media screen and (min-width:769px){ 
+
+	body
+	{
+		color: #2c2c2c;
+		font-family: "almira";
+		font-size: 1.15em;
+		margin: 0 auto;
+		max-width: 1200px;
+	}
+	footer
+	{
+		background: #4c4c4c;
+		text-align: center;
+		padding: 1em 0;
+	}
+	footer a
+	{
+		color: #fff;
+		font-weight: bold;
+	}
+	div#contenido
+	{
+		background: #bdbec0;
+	}
+	div#contenido #contacto #formulario textarea
+	{
+		height: 8em;
+	}
+	div#contenido #direcciones p.clase-direccion
+	{
+		border-top: 1px solid #5b5b5b;
+		padding-top: 2.5em;
+	}
+	div#contenido .contactos
+	{
+		display: inline-block;
+		text-align: center;
+		vertical-align: top;
+		margin-left: 1em;
+		width: 45%;
+	}
+	div#contenido .contactos .subtitulos
+	{
+		font-size: 2em;
+		margin: 2em auto;
+		text-align: center;
+		width: 8em;
+	}
+	
+	div#slider figure
+	{
+		height: 30em;
+		overflow: hidden;
+		width: 100%;
+	}
+	div#slider figure img
+	{
+		text-align: center;
+	}
+	header figure#logo-arr
+	{
+		text-align: center;
+	}
+	header figure#logo-arr img
+	{
+		width: 12%;
+	}
+	header nav#menu-movil
+	{
+		display: none;
+	}
+	header nav#menu-principal
+	{
+		display: block;
+	}
+	header nav#menu-principal ul
+	{
+		border-bottom: 1px solid #2c2c2c;
+		border-top: 1px solid #2c2c2c;
+		padding: 1em 0;
+		text-align: center;
+		width: 100%;
+	}
+	header nav#menu-principal ul li
+	{
+		display: inline-block;
+		margin-right: 3em;
+	}
+	header nav#menu-principal ul li a
+	{
+		color: #5b5b5b;
+		display: block;
+		font-size: 1.25em;
+
+		-webkit-border-radius: 2px;
+		-moz-border-radius: 2px;
+		border-radius: 2px;
+	}
+	header nav#menu-principal ul li a:hover
+	{
+		background: #8D0C20;
+		color: #fff;
+		text-decoration: overline;
+	}
+	header span
+	{
+		background: #8D0C20;	
+		border-bottom: 5px solid #5b5b5b;
+		color: #fff;
+		font-size: 2em;
+		width: 40%;
+	}
+	header span#abogados
+	{
+		float: left;
+		margin-top: 1em;
+		text-align: right;
+		padding-right: .5em;
+	}
+	header span#corporativos
+	{
+		float: right;
+		margin-top: 1em;
+		padding-left: .5em;	
+	}
+	mark
+	{
+		background: #fff;
+		color: #8D0C20;
+		font-weight: bold;
+	}
+	nav#menu-movil
+	{
+		display: none;
+	}
+	p#boton-menu
+	{
+		display: none;
+	}
+	.secciones
+	{
+		display: none;
+		min-height: 40em;
+	}
+	.secciones .contenido-secciones
+	{
+		font-weight: bold;
+		text-align: justify;
+		margin: 0 auto;
+		width: 95%;
+	}
+	.secciones .logo-fondo
+	{
+		opacity: .2;
+		position: absolute;
+		z-index: -1;
+	}
+	.subtitulos
+	{
+		font-size: 2em;
+		text-align: center;
+	}
+}
