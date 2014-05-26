@@ -105,7 +105,7 @@ p#boton-menu
 		display: block;
 		font-size: 1.75em;
 		position: fixed;
-		top: -1em;
+		top: -.5em;
 		z-index: 2;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
@@ -118,17 +118,7 @@ p#boton-menu
 	footer
 	{
 		background: #2c2c2c;
-	}
-	header
-	{
-		background: #fff;
-		height: 2.5em;	
-		position: fixed;
-		margin: 0 auto;
-		top: 0;	
-		width: 100%;
-		z-index: 1;
-	}
+	}	
 	footer a
 	{
 		color: #fff;
@@ -136,6 +126,16 @@ p#boton-menu
 		padding-bottom: .75em;
 		padding-top: .75em;
 		text-align: center;
+	}
+	header
+	{
+		background: #fff;
+		height: 3.5em;	
+		position: fixed;
+		margin: 0 auto;
+		top: 0;	
+		width: 100%;
+		z-index: 1;
 	}
 	header figure#logo-arr
 	{
@@ -147,7 +147,7 @@ p#boton-menu
 	header figure#logo-arr img
 	{
 		display: block;
-		width: 30px;
+		width: 45px;
 	}
 	header span#abogados, header span#corporativos
 	{
@@ -155,9 +155,9 @@ p#boton-menu
 		border-bottom: 3px solid #5b5b5b;
 		color: #fff;
 		font-family: "LAN";
-		font-size: .9em;
+		font-size: 1.1em;
 		position: fixed;
-		top: .5em;
+		top: 1em;
 		width: 40%;
 	}
 	header span#abogados
@@ -224,6 +224,10 @@ p#boton-menu
 	{
 
 	}
+	div#slider
+	{
+		margin-top: 5em;
+	}
 	div#slider figure img
 	{
 		width: 100%;
@@ -289,7 +293,7 @@ p#boton-menu
 	.logo-fondo img
 	{
 		left: -5em;
-		opacity: .17;
+		opacity: 0.15;
 		position: fixed;
 		text-align: center;
 		top: 7em;
@@ -313,7 +317,7 @@ p#boton-menu
 	{
 		font-family: "almira";
 		font-size: 2em;
-		margin: 1em 0 2em 0;
+		margin: 3.5em 0 2em 0;
 		text-align: center;
 	}
 }
