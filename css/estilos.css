@@ -345,6 +345,13 @@ p#boton-menu
 	{
 		background: #bdbec0;
 	}
+	div#contenido #contacto #formulario input#btn-enviar
+	{
+		background: #8D0C20;
+		color: #fff;
+		padding: .6em 0;
+		width: 6em;
+	}
 	div#contenido #contacto #formulario textarea
 	{
 		height: 8em;
